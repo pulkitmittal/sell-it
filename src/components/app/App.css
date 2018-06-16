@@ -1,0 +1,37 @@
+/* Mobile First Media Queries */
+
+/* Base style */
+.app {
+  width: 100%;
+  margin: 0 auto;
+}
+.app-header {
+  background-color: #f4f5f6;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.app-title {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+/* Larger than mobile screen */
+@media (min-width: 40.0rem) {
+  .app {
+    /* width: 90%; */
+  }
+}
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) {
+  .app {
+    /* width: 90%; */
+  }
+}
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) {
+  .app {
+    /* width: 90%; */
+  }
+}
